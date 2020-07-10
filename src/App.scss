@@ -1,12 +1,54 @@
 /*============ CI-DESSOUS CODE PERSO ============*/
+.Nav-menu {
+  height: 10vh;
+  width: 10vh;
+  padding: 0;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  color: #F4E8C1;
+  font-family: 'Ubuntu-Regular', sans-serif;
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    .square {
+      height: inherit;
+      width: inherit;
+      background-color: #F4E8C1;
+      border: 1px #333333 solid;
+      display: inline-block;
+      &:hover{
+        background-color: #A0C1B9;
+      }
+      img {
+        height: 80%;
+        display: block;
+        margin: 10% auto;
+      }
+    }
+  }
+  ul {
+    display: none;
+    list-style: none;
+    font-size: 3vh;
+    li:hover {
+      background-color: white;
+    }
+  }
+  /*width: 130px;
+    background: yellowgreen;
+  */
+}
+
 .Hero-header {
   height: 100vh;
   width: 100%;
   background-color: #333333;
   display: flex;
   align-items: flex-end;
-  font-family: 'Ubuntu-Regular',
-    sans-serif;
+  font-family: 'Ubuntu-Regular', sans-serif;
     color: #F4E8C1;
     h1:nth-of-type(1) {
       font-size: 50vh;
@@ -26,11 +68,11 @@
     /*Ci-dessous les "..."*/
     h1:nth-of-type(3), h1:nth-of-type(4), h1:nth-of-type(5) {
       margin-bottom: -20px;
-      animation: up-down-dots ease-in-out 1.5s infinite
+      animation: up-down-dots 0.4s ease infinite alternate;
     }
-    h1:nth-of-type(3) { animation-delay: 0.5s}
-    h1:nth-of-type(4) { animation-delay: 1s}
-    h1:nth-of-type(5) { animation-delay: 1.5s}
+    h1:nth-of-type(3) { animation-delay: 0s}
+    h1:nth-of-type(4) { animation-delay: 0.2s}
+    h1:nth-of-type(5) { animation-delay: 0.4s}
 }
 
 .My-bio {
@@ -47,6 +89,6 @@
 }
 
 @keyframes up-down-dots {
-  from, to { margin-bottom: -20px}
-  50% { margin-bottom: 70px }
+  from {margin-bottom: -20px}
+    to   {margin-bottom: 70px}
 }
