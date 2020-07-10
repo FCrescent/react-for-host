@@ -1,0 +1,52 @@
+/*============ CI-DESSOUS CODE PERSO ============*/
+.Hero-header {
+  height: 100vh;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Ubuntu-Regular',
+    sans-serif;
+    color: #F4E8C1;
+    h1:nth-of-type(1) {
+      font-size: 50vh;
+      margin-bottom: -20px;
+    }
+    h1:nth-of-type(2), h1:nth-of-type(3), h1:nth-of-type(4), h1:nth-of-type(5) {
+      font-size: 40vh;
+      margin-bottom: 35px;
+    }
+    h1:nth-of-type(2){
+      animation: blink-caret 1s step-end infinite;
+      /*animation-name: blink-caret;
+      animation-duration: 0s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;*/
+    }
+    /*Ci-dessous les "..."*/
+    h1:nth-of-type(3), h1:nth-of-type(4), h1:nth-of-type(5) {
+      margin-bottom: -20px;
+      animation: up-down-dots ease-in-out 1.5s infinite
+    }
+    h1:nth-of-type(3) { animation-delay: 0.5s}
+    h1:nth-of-type(4) { animation-delay: 1s}
+    h1:nth-of-type(5) { animation-delay: 1.5s}
+}
+
+.My-bio {
+  height: 100vh;
+  width: 100%;
+  background-color: #F4E8C1;
+  color: #333333;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { color: transparent }
+  50% { color: #F4E8C1; }
+}
+
+@keyframes up-down-dots {
+  from, to { margin-bottom: -20px}
+  50% { margin-bottom: 70px }
+}
