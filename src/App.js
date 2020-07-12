@@ -34,7 +34,7 @@ function App() {
       </div>
       <div className="Parallax-home">
         <div className="Layer">
-          <h1>EN QUELQUES MOTS ...</h1>
+          <h1>ABOUT ...</h1>
         </div>
       </div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */  }
