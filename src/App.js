@@ -34,7 +34,14 @@ function App() {
       </div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */  }
       <div className="My-bio">
-        <h1>En quelques mots...</h1>
+        <h1>En quelques mots!</h1>
+        <p>
+          <a
+            href="https://typologieanalytique.com/"
+            target="_blank"
+          >
+          Typologue-analyste</a>
+        </p>
         {/*METTRE UN rotating gear pas loin*/}
       </div>
         <p>------------------------------</p>
