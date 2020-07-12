@@ -75,6 +75,38 @@
     h1:nth-of-type(5) { animation-delay: 0.4s}
 }
 
+.Parallax-home {
+  height: 200px;
+  background-image: url("./janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+  width: 100%;
+  /* Set a specific height */
+  /*min-height: 500px;*/
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  div.Layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+      h1 {
+        font-family: 'Ubuntu-Regular', sans-serif;
+        letter-spacing: 10px;
+        color: white;
+        text-align: center;
+        font-size: 4vw;
+        /*margin-top: 0px;*/
+      }
+  }
+}
+
 .My-bio {
   height: 100vh;
   width: 100%;

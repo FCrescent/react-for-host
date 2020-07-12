@@ -32,9 +32,13 @@ function App() {
         <h1>.</h1>
         <h1>.</h1>
       </div>
+      <div className="Parallax-home">
+        <div className="Layer">
+          <h1>EN QUELQUES MOTS ...</h1>
+        </div>
+      </div>
         {/* <img src={logo} className="App-logo" alt="logo" /> */  }
       <div className="My-bio">
-        <h1>En quelques mots!</h1>
         <p>
           <a
             href="https://typologieanalytique.com/"
@@ -92,6 +96,8 @@ function App() {
 
         <p>------------------------------</p>
         <p> Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+        <p><span>Photo by <a href="https://unsplash.com/@itfeelslikefilm?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">🇸🇮 Janko Ferlič</a> on <a href="https://unsplash.com/s/photos/library?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></p>
+
       </header>
     </div>
   );
