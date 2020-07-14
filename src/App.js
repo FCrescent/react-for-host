@@ -35,7 +35,7 @@ function App() {
       */}
       {/*<h1>Hello World!!!!!! zip55</h1>*/}
       <header className="App-header">
-      <div className="Hero-header">
+      <div className="Hero-section">
         <div className="Hero-central">
           <div className="Hero-central-up">
             <h1>FC</h1>
@@ -45,7 +45,11 @@ function App() {
             <h1>.</h1>
           </div>
           <div className="Hero-central-down">
+            <div className="Nav-button">
+              <img src={fastSymbol} alt="man running" />
+              <h3>Accès rapide</h3>
 
+            </div>
           </div>
         </div>
       </div>
