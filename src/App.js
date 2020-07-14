@@ -36,6 +36,8 @@ function App() {
       {/*<h1>Hello World!!!!!! zip55</h1>*/}
       <header className="App-header">
       <div className="Hero-section">
+        <img src={gearSymbol} className="Rotating-gear" alt="logo" />
+        <img src={gearSymbol} className="Rotating-gear" alt="logo" />
         <div className="Hero-central">
           <div className="Hero-central-up">
             <h1>FC</h1>

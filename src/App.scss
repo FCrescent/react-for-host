@@ -60,6 +60,23 @@
   justify-content: center;
   font-family: 'Ubuntu-Regular', sans-serif;
   color: #800000;/*#F4E8C1;*/
+  background-image: linear-gradient(to bottom right,rgba(135, 245, 251, 0.5),
+  white, white, rgba(135, 245, 251, 0.5));
+  .Rotating-gear:nth-of-type(1){
+    height: 90vmin;
+    pointer-events: none;
+    position: absolute;
+    margin-right: -100%;
+    margin-top: -45vh;
+  }
+  .Rotating-gear:nth-of-type(2){
+    height: 45vmin;
+    pointer-events: none;
+    position: absolute;
+    margin-left: -100%;
+    margin-top: 80vh;
+
+  }
   .Hero-central{
     /*background-color: lightblue;*/
     .Hero-central-up{
@@ -104,7 +121,7 @@
         height: 8vh;
         align-items: center;
         margin-top: 5%;
-        background: linear-gradient(to right, rgba(128, 0, 0, 0.5) 50%, white 50%);
+        background: linear-gradient(to right, rgba(128, 0, 0, 0.5) 50%, transparent 50%);
         background-size: 200% 100%;
         background-position: right bottom;
         transition: all .5s ease-out;
@@ -126,6 +143,7 @@
 .Parallax-home {
   background-image: url("./janko-ferlic-sfL_QOnmy00-unsplash.jpg");
   width: 100%;
+  z-index: 15;
   /* Set a specific height */
   /*min-height: 500px;*/
 
@@ -153,6 +171,8 @@
 }
 
 .My-bio {
+  background-color: white;
+  z-index: 15;
   height: 100vh;
   width: 100%;
   /*background-color: ;#F4E8C1;*/
@@ -168,4 +188,19 @@
 @keyframes up-down-dots {
   from {margin-bottom: -20px}
     to   {margin-bottom: 70px}
+}
+
+@keyframes Rotating-gear-spin {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Rotating-gear {
+    animation: Rotating-gear-spin infinite 20s linear;
+  }
 }
