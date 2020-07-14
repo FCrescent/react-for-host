@@ -9,28 +9,45 @@ import './App.scss';
 
 function App() {
   return (
-      <div className="App">
-          <div className="Nav-menu">
+    <div className="App">
+      {/*
+      <div className="Top-bar">
+        <div>
+          7 Rules for Website Color Schemes
+        </div>
+        <div>
+          Accès Rapide
+        </div>
+        <div className="Nav-menu">
           <a href="#">
             <span class="square">
               <img src={fastSymbol} alt="man running" />
             </span>
           </a>
           <ul>
-              <li>Up !</li>
-              <li>About</li>
-              <li>Des liens </li>
-              <li></li>
-            </ul>
-          </div>
+            <li>Up !</li>
+            <li>About</li>
+            <li>Des liens </li>
+            <li></li>
+          </ul>
+        </div>{/*FIN NAV MENU}
+      </div>{/*FIN TOP BAR}
+      */}
       {/*<h1>Hello World!!!!!! zip55</h1>*/}
       <header className="App-header">
       <div className="Hero-header">
-        <h1>FC</h1>
-        <h1> |</h1>
-        <h1>.</h1>
-        <h1>.</h1>
-        <h1>.</h1>
+        <div className="Hero-central">
+          <div className="Hero-central-up">
+            <h1>FC</h1>
+            <h1> |</h1>
+            <h1>.</h1>
+            <h1>.</h1>
+            <h1>.</h1>
+          </div>
+          <div className="Hero-central-down">
+
+          </div>
+        </div>
       </div>
       <div className="Parallax-home">
         <div className="Layer">
@@ -65,7 +82,7 @@ function App() {
           <li>copy-paste les éléments du build dans "react-for-host-build"</li>
           <li>Ouvrir Atom/Ouvrir folder "build"</li>
           <li>Git commit & push depuis "react-for-host-build"</li>
-          <li>Go Hostinger -puis- "Git" -puis- Click "Déployer"</li>
+          <li>Go Hostinger -puis- "Git" -puis- Click "Déployer" (si bug, supprimer le dépot Git sur Hostinger puis recréer & déployer)</li>
         </ol>
 
         <p>------------------------------</p>
