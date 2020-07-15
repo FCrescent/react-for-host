@@ -1,3 +1,33 @@
+------------------------------
+
+Pour le passage de Atom/Local à Hostinger/Online, suivre ce lien :
+[Deploying a React Application on Hostinger](https://medium.com/@kmchaplain/deploying-a-react-application-on-hostinger-cf2c6c43b072)
+Le protocole en détails :
+
+    Git commit & push depuis "react-for-host"
+    A partir de cmd/"react-for-host" >>> npm run build
+    copy-paste les éléments du build dans "react-for-host-build"
+    Ouvrir Atom/Ouvrir folder "build"
+    Git commit & push depuis "react-for-host-build"
+    Go Hostinger -puis- "Git" -puis- Click "Déployer" (si bug, supprimer le dépot Git sur Hostinger puis recréer & déployer)
+
+------------------------------
+
+Pour React Multi pages, suivre ce lien :
+[React Router: Declarative Routing for React.js - React Training](https://reactrouter.com/web/guides/quick-start)
+
+------------------------------
+
+To start the local coding, go on cmd and do "d:" then "cd react-for-host" and finally "npm start"
+
+------------------------------
+[Learn React](https://reactjs.org/)
+
+------------------------------
+
+======
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
