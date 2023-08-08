@@ -1,3 +1,5 @@
+Ce repository a été créé pour tester des éléments de la librairie React.js
+
 ------------------------------
 
 Pour le passage de Atom/Local à Hostinger/Online, suivre ce lien :
